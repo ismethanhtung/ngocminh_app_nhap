@@ -1,7 +1,8 @@
 import axios from "axios";
 
 // Cấu hình base URL cho API
-const API_BASE_URL = process.env.REACT_APP_API_URL || "http://localhost:3000";
+const API_BASE_URL =
+    process.env.REACT_APP_API_URL || "http://172.16.2.240:3000";
 
 // Utility function để đảm bảo UTF-8 encoding
 const ensureUtf8 = (str) => {
